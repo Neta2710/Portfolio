@@ -5,12 +5,12 @@ const TopPresentation = () => {
   return (
     <div className="top-presentation">
       <div>
-        <divc className="septre">
+        <div className="septre">
           <div className="cercleViolet"></div>
           <div className="tigeFade"></div>
-        </divc>
+        </div>
         <h1>
-          <h1 id="title">
+          <h1 id="titleTop">
            Bonjour, nous sommes 
             <span id="cacheTech"> CacheTech</span>
           </h1>
