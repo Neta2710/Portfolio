@@ -1,25 +1,18 @@
+#flexPosition {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+}
 
-.septre{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
+.top-presentation {
+    position: absolute;
+    width: 100%;
+    margin-top: 100px;
 }
-.cercleViolet{
-    background-color:rgb(119, 0, 255);
-    width: 25px;
-    height: 25px;
-    border-radius: 100% ;
-}
-.tigeFade{
-    background: linear-gradient(#7700ff, rgba(128, 128, 128, 0));
-    width: 4.5px;
-    height: 300px;
-    
-}
+
 #title{
     color: white;
+    font-size: 80px;
 }
 #cacheTech{
     color: rgb(119, 0, 255);
@@ -28,3 +21,7 @@
 #presentationTop{
     color: #dfd9ff;
 }
+#textTop {
+    width: 200px;
+}
+
