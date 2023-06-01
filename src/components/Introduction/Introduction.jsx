@@ -1,6 +1,5 @@
 import React from "react";
 import "./Introduction.css";
-import Cards from "../Cards/Cards";
 
 
 const Introduction = () => {
