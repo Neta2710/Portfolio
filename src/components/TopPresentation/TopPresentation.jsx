@@ -10,7 +10,7 @@ const TopPresentation = () => {
           <span id="textTop">
           <h1>
             <h1 id="title">
-              Hi, I'm 
+              Hi, We are 
               <span id="cacheTech"> CacheTech</span>
             </h1>
             <p id="presentationTop">
