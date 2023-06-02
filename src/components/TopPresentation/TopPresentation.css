@@ -21,11 +21,15 @@
   font-weight: 800;
 }
 #cacheTech {
-  color: rgb(119, 0, 255);
+    top: -35px;
+    color: rgb(119, 0, 255);
+    position: relative;
 }
 #presentationTop {
   color: #dfd9ff;
   width: 800px;
+  position: relative;
+  top: -30px;
 }
 #textTop {
   width: 410px;

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Septre  from "./Septre/Septre";
 import "./TopPresentation.css";
+import Computeur from "../Canvas/Computeur"
 
 const TopPresentation = () => {
   return (
@@ -22,6 +23,7 @@ const TopPresentation = () => {
           </h1>
           </span>
       </div>
+      <Computeur/>
     </section>
   );
 };
