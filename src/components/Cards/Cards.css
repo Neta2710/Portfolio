@@ -19,8 +19,14 @@
   }
 }
 .cards {
-  width: 250px; /*Non responsiv, 3D Mouvment here*/
-}
+    width: 250px;
+    transition: transform 0.1s ease;
+    /* transform: rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); */
+  }
+  
+  /* .cards:hover {
+    transform: rotateX(0deg) rotateY(0deg) scale3d(1.1, 1.1, 1.1);
+  } */
 
 .cardsStyle {
   width: 100%;
