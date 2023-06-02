@@ -1,7 +1,7 @@
 #navHeader {
     display: flex;
     position: fixed;
-    margin-top: 25px;
+    top: 10px;
     width: 100%;
     justify-content: center;
     align-items: center;

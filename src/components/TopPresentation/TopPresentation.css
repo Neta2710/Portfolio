@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  max-width: 80rem; /* 7xl equals 80rem in Tailwind CSS */
+  max-width: 75rem; /* 7xl equals 80rem in Tailwind CSS */
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -10,7 +10,6 @@
 }
 
 .top-presentation {
-  position: absolute;
   width: 100%;
   margin-top: 100px;
 }

@@ -1,10 +1,11 @@
 import React from "react";
 import "./Introduction.css";
+import Cards from "../Cards/Cards";
 
 
 const Introduction = () => {
   return (
-    <section>
+    <section id="introductionSection">
       <div>
         <p className="presentationMid">Introduction</p>
         <h2 id="titleMid">Aperçu.</h2>
@@ -20,7 +21,8 @@ const Introduction = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-
+    
+    <Cards/>
       
     </section>
   );
