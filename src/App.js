@@ -1,7 +1,7 @@
 import "./App.css";
 import { TopHeader } from "./components/TopHeader/TopHeader";
 import TopPresentation from "./components/TopPresentation/TopPresentation";
-import Introduction from "./components/Introduction/Introduction";
+// import Introduction from "./components/Introduction/Introduction";
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <TopHeader />
         <TopPresentation />
-        <Introduction />
+        {/* <Introduction /> */}
       </header>
     </div>
   );
