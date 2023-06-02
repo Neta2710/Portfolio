@@ -1,37 +1,16 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./Cards.css";
 
+
+
 const Cards = () => {
-  const cardsRef = useRef(null);
 
-  const handleMouseMove = (event) => {
-    const cards = cardsRef.current;
-    const x = (event.clientX * 100) / window.innerWidth + "%";
-    const y = (event.clientY * 100) / window.innerWidth + "%";
-
-    cards.style.transition = "0s";
-    cards.style.left = x;
-    cards.style.top = y;
-  };
-
-  const handleMouseOut = () => {
-    const cards = cardsRef.current;
-
-    cards.style.transition = "0.7s";
-    cards.style.left = "50%";
-    cards.style.top = "50%";
-  };
 
   return (
     <section id="card">
       <div id="cardDiv">
         <div
-          id="cards"
-          className="cards"
-          ref={cardsRef}
-          onMouseMove={handleMouseMove}
-          onMouseOut={handleMouseOut}
-        >
+          className="cards" >
           <div className="cardsStyle">
             <div className="cardsIn">
               <img
