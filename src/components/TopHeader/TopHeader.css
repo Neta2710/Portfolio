@@ -46,3 +46,9 @@ a {
 a:hover {
     color: rgb(170 166 195 / var(--tw-text-opacity));
 }
+
+#cacheText {
+    display: inline;
+    top: -13px;
+    position: relative;
+} 
