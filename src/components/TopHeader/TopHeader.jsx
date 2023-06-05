@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./TopHeader.css";
 import logo from '../../assets/logo/logo.png';
 
+
 export const TopHeader = () => {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
 
@@ -25,7 +26,7 @@ export const TopHeader = () => {
   return (
     <nav id="navHeader" style={{ backgroundColor }}>
       <span id="principalSpan">
-        <span id="firstSpan"><img src={logo} width="25" height="25" id="logo"/> CacheTech.© | Corporation. </span>
+        <span id="firstSpan"><img src={logo} width="64" height="64" id="logo"/> CacheTech.© | Corporation. </span>
         <span id="secondSpan">
           <ul id="ulHeader">
             <li className="liHeader">
