@@ -26,7 +26,7 @@ export const TopHeader = () => {
   return (
     <nav id="navHeader" style={{ backgroundColor }}>
       <span id="principalSpan">
-        <span id="firstSpan"><img src={logo} width="64" height="64" id="logo"/> CacheTech.© | Corporation. </span>
+        <span id="firstSpan"><img src={logo} width="50" height="50" id="logo"/> CacheTech.© | Corporation. </span>
         <span id="secondSpan">
           <ul id="ulHeader">
             <li className="liHeader">
