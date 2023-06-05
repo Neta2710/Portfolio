@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
 import "./Cards.css";
 import VanillaTilt from "vanilla-tilt";
-import devWeb from '../../assets/card/dev-web.png'
-import reactNative from '../../assets/card/react-native.png'
-import backend from '../../assets/card/backend.png'
-import entrep from '../../assets/card/entrep.jpg'
+import devWeb from '../../assets/card/web-0d05165f.png'
+import reactNative from '../../assets/card/mobile-896ef2f5.png'
+import backend from '../../assets/card/backend-565fc01f.png'
+import entrep from '../../assets/card/creator-dbbffaec.png'
 
 const Cards = () => {
   useEffect(() => {
